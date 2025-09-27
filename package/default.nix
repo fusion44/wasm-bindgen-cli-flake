@@ -1,8 +1,8 @@
 # default.nix
 {pkgs ? import <nixpkgs> {}}: let
-  version = "0.2.103";
+  version = "0.2.104";
   # This hash verifies the source code from GitHub
-  srcSha256 = "sha256-tp+tSCMW48H4f9dsagfVDIzfEntsSvU0YlI4KrxSows=";
+  srcSha256 = "sha256-FpUqvucsHbWoG6FKsNg708SvauKKoodumFoxLxLSGhE=";
   src = pkgs.fetchFromGitHub {
     owner = "wasm-bindgen";
     repo = "wasm-bindgen";
